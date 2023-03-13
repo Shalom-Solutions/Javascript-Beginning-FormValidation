@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+header {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f1f1f1;
+    color: #000;
+}
+main {
+    margin: 20px 500px;
+
+   .container {
+    padding: 2rem;
+    display: block;
+    background-color: #f1f1f1;
+    color: #000;
+
+    
+        h2 {
+            padding-bottom: 1rem;
+        }
+
+        form {
+            display: flex;
+            line-height: 1.2;
+            flex-direction: column;
+            gap: .2rem;
+
+                label {
+                    font-weight: bold;
+                }
+                
+                input {
+                    width: 100%;
+                    padding: .3rem .3rem;
+                    &:nth-child(2), &:nth-child(4) {
+                        margin-bottom: .5rem;
+                    }
+
+            }
+                .btn {
+                    padding: .4rem 3rem;
+                    background: #000;
+                    color: white;
+                    text-align: center;
+                    border-radius: .2rem;
+                    border: none;
+                 }
+        }   
+        
+    }
+    ul {
+        li {
+            width: 100%;
+               list-style: none;
+               margin: .5rem 0rem;
+               background-color: #f1f1f1;
+               padding: .3rem .3rem;
+               font-weight: bold;
+           }
+    }
+    
+    .items {
+
+       
+        
+           li {
+            width: 100%;
+               list-style: none;
+               margin: .5rem 0rem;
+               background-color: #f1f1f1;
+               padding: .3rem .3rem;
+               font-weight: bold;
+           }
+       }
+   
+ 
+}
+.bg-dark {
+    background-color: pink;
+    color: rgb(44, 83, 44);
+}
+.error {
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
